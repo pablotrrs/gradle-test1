@@ -3,6 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class MainTest {
     @Test public void aTest() {
-        assertEquals(1, 1);
+        assertEquals(2, 2);
     }
 }
