@@ -47,8 +47,7 @@ jobs:
         path: test-results
 
     - name: Publish Test Results as Github Pages
-      uses: peaceiris/actions-gh-pages@v3
+      uses: peace-iris/actions-gh-pages@v3
       with:
-        lfs: true
-        personal_token: ${{secrets.ACCESS_TOKEN}}
+        personal_token: ${{ secrets.ACCESS_TOKEN }}
         publish_dir: ./test-results/
